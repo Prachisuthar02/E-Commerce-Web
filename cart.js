@@ -11,8 +11,7 @@ function displayCartItems() {
               <p class="cart_title">${item.title}</p>
               <img src="${item.image}" alt="${item.title}" class="cart_img" />
               <p class="cart_price">${item.price}</p>
-              <p class="cart_delete">Delete</p>
-    `;
+              <p class="cart_delete">Delete</p>`;
     CartItems.appendChild(cartItem);
   });
 }
